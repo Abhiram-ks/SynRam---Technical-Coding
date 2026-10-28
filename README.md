@@ -1,4 +1,4 @@
-# 🚀 SynRam Technical Coding Assessment — User Directory App
+# SynRam Technical Coding Assessment — User Directory App
 
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
@@ -10,9 +10,7 @@
 
 ---
 
-## 📖 Overview
-
-Welcome to the **User Directory App**, developed as part of the **SynRam Technical Coding Assessment**. 
+## Overview
 
 This application demonstrates modern Flutter development best practices by consuming remote REST API data, managing application state predictably using the **BLoC (Business Logic Component)** pattern, and delivering a responsive, user-friendly mobile experience.
 
@@ -20,18 +18,18 @@ Whether you are a technical evaluator reviewing the architecture or someone inte
 
 ---
 
-## ✨ Features
+## Features
 
-- 🌐 **Live Data Fetching**: Fetches real-time user records asynchronously from a remote REST API.
-- ⚡ **BLoC State Management**: Clean separation of UI and business logic with predictable state transitions (`Loading`, `Success`, `Empty`, `Failure`).
-- 🔍 **Instant Search & Filter**: Real-time client-side search to filter users by name with an instant feedback UI.
-- 🔄 **Pull-to-Refresh**: Native swipe-down gesture to reload and synchronize user records from the server.
-- 👤 **Detailed User View**: Tap on any user card to navigate into their dedicated profile page displaying detailed information.
-- 🛡️ **Graceful Error Handling & Fallbacks**: Handles network errors, empty states, and invalid inputs gracefully with clear visual indicators.
+- **Live Data Fetching**: Fetches real-time user records asynchronously from a remote REST API.
+- **BLoC State Management**: Clean separation of UI and business logic with predictable state transitions (`Loading`, `Success`, `Empty`, `Failure`).
+- **Instant Search & Filter**: Real-time client-side search to filter users by name with an instant feedback UI.
+- **Pull-to-Refresh**: Native swipe-down gesture to reload and synchronize user records from the server.
+- **Detailed User View**: Tap on any user card to navigate into their dedicated profile page displaying detailed information.
+- **Graceful Error Handling & Fallbacks**: Handles network errors, empty states, and invalid inputs gracefully with clear visual indicators.
 
 ---
 
-## 🏗️ Architecture & State Flow
+## Architecture & State Flow
 
 The project strictly follows the **BLoC Pattern** to guarantee a clear separation of concerns:
 
@@ -74,7 +72,7 @@ stateDiagram-v2
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 lib/
@@ -97,7 +95,7 @@ lib/
 
 ---
 
-## 🔌 API Reference
+## API Reference
 
 The app connects to the public **JSONPlaceholder** test API:
 
@@ -107,7 +105,7 @@ The app connects to the public **JSONPlaceholder** test API:
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+## Tech Stack & Dependencies
 
 | Technology | Purpose |
 | :--- | :--- |
@@ -118,42 +116,6 @@ The app connects to the public **JSONPlaceholder** test API:
 | [http](https://pub.dev/packages/http) `^1.6.0` | Making composable HTTP network requests |
 
 ---
-
-## 🚀 Getting Started
-
-Follow these steps to run the application on your local machine:
-
-### 1. Prerequisites
-- [Flutter SDK](https://docs.flutter.dev/get-started/install) (Version 3.11+ recommended)
-- [Dart SDK](https://dart.dev/get-dart)
-- An active Android Emulator, iOS Simulator, or connected physical device
-- Git installed on your system
-
-### 2. Clone the Repository
-```bash
-git clone https://github.com/Abhiram-ks/SynRam---Technical-Coding.git
-cd SynRam---Technical-Coding
-```
-
-### 3. Install Dependencies
-```bash
-flutter pub get
-```
-
-### 4. Run the Application
-```bash
-flutter run
-```
-
----
-
-## 🧑‍💻 Author
-
-**Abhiram K S**
-- GitHub: [@Abhiram-ks](https://github.com/Abhiram-ks)
-- Repository: [SynRam---Technical-Coding](https://github.com/Abhiram-ks/SynRam---Technical-Coding)
-- Purpose: **SynRam Technical Coding Assessment Submission**
-
 ---
 
 <p align="center">
