@@ -116,8 +116,3 @@ The app connects to the public **JSONPlaceholder** test API:
 | [http](https://pub.dev/packages/http) `^1.6.0` | Making composable HTTP network requests |
 
 ---
----
-
-<p align="center">
-  Crafted with ❤️ using Flutter & BLoC
-</p>
